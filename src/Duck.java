@@ -24,6 +24,6 @@ public class Duck extends Animal implements Flyable{
     }
 
     void clean(Animal animal){
-        System.out.println(this.toString() + " is cleaning " + animal.toString());
+        System.out.println(this + " is cleaning " + animal.toString());
     }
 }

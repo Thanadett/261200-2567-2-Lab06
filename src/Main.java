@@ -11,6 +11,7 @@ public class Main {
         donald.sound();
         burin.sound();
         hedwing.sound();
+        wagyu.milk();
         donald.clean(wagyu);
         daisy.clean(donald);
         PekingDuck fourseasons = new PekingDuck("4ss");
